@@ -12,6 +12,12 @@ function App() {
   return (
     <>
       <h1 className="hookname">Hooks That you're likely going to use</h1>
+      <p className="midtext">
+        Github:{" "}
+        <a href="https://github.com/rizzabh/react-hooks">
+          /rizzabh/react-hooks
+        </a>
+      </p>
       <p className="subtext">
         Made this project to implement my understanding of hooks lol.
       </p>
