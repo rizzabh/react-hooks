@@ -42,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #000000;
+  background-color: #0000008c;
   cursor: pointer;
   transition: border-color 0.25s;
   margin: 4px;
@@ -61,13 +61,13 @@ button:focus-visible {
 .card{
   border: 1px solid #eaeaea67;
   border-radius: 8px;
-  margin: 1.5rem;
+  margin: 1.2rem;
   background-color: rgb(27, 27, 27);
   max-width: 700px;
   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.575);
 }
 .card1{
-  border: 1px solid #0004ffb0;
+  border: 1px solid #0014635e;
   border-radius: 8px;
   margin: 1.5rem;
   background-color: rgb(0, 20, 99);
@@ -80,6 +80,8 @@ button:focus-visible {
   place-items: center;
   margin-left: auto;
   margin-right: auto;
+  position: sticky;
+  top: 6px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
