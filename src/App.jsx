@@ -25,23 +25,21 @@ function App() {
 
   return (
     <>
-      <button onClick={handleShow}>Available Hooks {">"}</button>
-      {show && (
-        <div className="card1">
-          <button onClick={() => scrollToSection(contentRefs.useState)}>
-            useState
-          </button>
-          <button onClick={() => scrollToSection(contentRefs.useEffect)}>
-            useEffect
-          </button>
-          <button onClick={() => scrollToSection(contentRefs.useReducer)}>
-            useReducer
-          </button>
-          <button onClick={() => scrollToSection(contentRefs.useRef)}>
-            useRef
-          </button>
-        </div>
-      )}
+      <div className="card1">
+        <button onClick={() => scrollToSection(contentRefs.useState)}>
+          useState
+        </button>
+        <button onClick={() => scrollToSection(contentRefs.useEffect)}>
+          useEffect
+        </button>
+        <button onClick={() => scrollToSection(contentRefs.useReducer)}>
+          useReducer
+        </button>
+        <button onClick={() => scrollToSection(contentRefs.useRef)}>
+          useRef
+        </button>
+      </div>
+
       <About />
       <div ref={contentRefs.useState}>
         <UseState />
