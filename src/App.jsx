@@ -7,6 +7,7 @@ import UseState from "./hooks/useState";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import UseEffect from "./hooks/useEffect";
 import UseReducer from "./hooks/useReducer";
+import UseRef from "./hooks/useRef";
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
       />
       <UseState />
       <UseEffect />
-      <UseReducer />
       <img src="./effectvslayouteffect.png" alt="" className="info" />
+      <UseReducer />
+      <UseRef />
 
       <h2>will add more, Tea Break...</h2>
     </>

@@ -6,7 +6,7 @@ const UseState = () => {
   return (
     <div>
       <div className="card">
-        <p className="hookname">useState Example:</p>
+        <p className="hookname">useState</p>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
