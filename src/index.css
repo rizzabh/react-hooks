@@ -66,6 +66,18 @@ button:focus-visible {
   max-width: 700px;
   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.575);
 }
+.card1{
+  border: 1px solid #eaeaea67;
+  border-radius: 8px;
+  margin: 1.5rem;
+  background-color: rgb(27, 27, 27);
+  max-width: 700px;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.575);
+  padding: 10px;
+  position: absolute;
+  width: fit-content;
+
+}
 .subtext{
   color: #8b8b8b;
   font-size: 1rem;

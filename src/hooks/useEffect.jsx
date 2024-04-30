@@ -33,6 +33,7 @@ const UseEffect = () => {
           the page because the state gets reset
         </p>
       </div>
+      <img src="./effectvslayouteffect.png" alt="" className="info" />
     </div>
   );
 };
