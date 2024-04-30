@@ -140,7 +140,7 @@ const InputComponent = () => {
             {timercodestring}
           </SyntaxHighlighter>
         )}
-        <p className="">
+        <p className="texter">
           Let us understand a simpler and DOM related use case of useRef with
           input focus.
         </p>

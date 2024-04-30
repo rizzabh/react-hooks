@@ -9,7 +9,7 @@ const UseEffect = () => {
   useEffect(() => {
     if (effect) {
       //refresh the page to see the effect again
-      document.body.style.backgroundColor = "lightblue";
+      document.body.style.backgroundColor = "#4a0260";
     }
   }, [effect]);
   return (
