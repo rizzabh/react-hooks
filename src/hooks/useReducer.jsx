@@ -76,7 +76,7 @@ const UseReducer = () => {
         </button>
         <button onClick={() => dispatch({ type: "RESET" })}>Reset</button>
       </div>
-      <p>But how does this hook different than useState?</p>
+      <p>But how does this hook act different than useState?</p>
       <p className="subtext">
         What i believe is... useReducer lets you play with states based on
         "Actions" which we use in switch statements. <br /> and useState is used
