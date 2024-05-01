@@ -162,7 +162,7 @@ button:focus-visible {
 }
 @media (max-width: 440px){
   .card{
-    max-width: 16rem;
+    max-width: 18rem;
   }
 
 }

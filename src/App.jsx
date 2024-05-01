@@ -5,6 +5,7 @@ import UseReducer from "./hooks/useReducer";
 import UseRef from "./hooks/useRef";
 import About from "./about";
 import { useState, useRef } from "react";
+import UseMemo from "./hooks/useMemo";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -13,10 +14,7 @@ function App() {
     useEffect: useRef(null),
     useReducer: useRef(null),
     useRef: useRef(null),
-  };
-
-  const handleShow = () => {
-    setShow(!show);
+    useMemo: useRef(null),
   };
 
   const scrollToSection = (ref) => {
@@ -38,6 +36,9 @@ function App() {
         <button onClick={() => scrollToSection(contentRefs.useRef)}>
           useRef
         </button>
+        <button onClick={() => scrollToSection(contentRefs.useMemo)}>
+          useMemo
+        </button>
       </div>
 
       <About />
@@ -52,6 +53,9 @@ function App() {
       </div>
       <div ref={contentRefs.useRef}>
         <UseRef />
+      </div>
+      <div ref={contentRefs.useMemo}>
+        <UseMemo />
       </div>
       <h2>will add more, Tea Break...</h2>
     </>
