@@ -111,16 +111,18 @@ const InputComponent = () => {
         <p className="hookname">useRef</p>
         <p className="">Stopwatch using useRef</p>
         <h2>Timer: {formatTime(timer)}</h2>
-        <button onClick={startTimer}>Start</button>
-        <button onClick={stopTimer}>Stop</button>
-        <button
-          onClick={() => {
-            setTimer(0);
-            stopTimer();
-          }}
-        >
-          Reset
-        </button>
+        <div>
+          <button onClick={startTimer}>Start</button>
+          <button onClick={stopTimer}>Stop</button>
+          <button
+            onClick={() => {
+              setTimer(0);
+              stopTimer();
+            }}
+          >
+            Reset
+          </button>
+        </div>
         <p className="subtext">
           Major difference in useState and useRef is that useRef is mutable, to
           make changes in a state using useState we use a second variable to

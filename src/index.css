@@ -65,6 +65,8 @@ button:focus-visible {
   background-color: rgb(27, 27, 27);
   max-width: 700px;
   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.575);
+ 
+  
 }
 .card1{
   border: 1px solid #0014635e;
@@ -172,4 +174,38 @@ button:focus-visible {
   border-top: 1px solid #eaeaea67;
   padding-top: 10px;
   font-size: 1.3rem;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #880404;
+  border-radius: 0 0 0 8px;
+}
+
+.memetext::before{
+  content: "* I Hate CSS (Ignore styling)";
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 12px;
+  filter: drop-shadow(0 0 2em #000000aa);
+}
+
+.refresh{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+ width: fit-content;
+  cursor: pointer;
+  margin: 6px;
+  border-radius: 8px;
+  border: 1px solid #044b9c;
+  color: white;
+  background-color: #044b9c8c;
 }
