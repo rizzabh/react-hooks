@@ -19,7 +19,13 @@ const UseMemo = () => {
         nothing but just a delay of 5 seconds Once the computation is done im
         memoizing it in delayedContent.
       </p>
-      <button onClick={() => setClear(!clear)}>refresh</button>
+      <button
+        onClick={() => {
+          window.location.reload();
+        }}
+      >
+        refresh
+      </button>
       {showContent ? (
         <p>Content rendered after 5 seconds!</p>
       ) : (
