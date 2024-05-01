@@ -3,7 +3,10 @@ import React from "react";
 const about = () => {
   return (
     <>
-      <h1 className="hookname">Hooks That you're likely going to use</h1>
+      <h1 className="">
+        <span className="headertext">React Hooks</span> <br /> That you're{" "}
+        likely going to use
+      </h1>
       <p className="midtext">
         Github:{" "}
         <a href="https://github.com/rizzabh/react-hooks">
